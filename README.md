@@ -1,10 +1,10 @@
-# Available .DOMAINS One-Word Domains (8,973)
+# Available .DOMAINS One-Word Domains (8,972)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-8%2C973%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-8%2C973%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-8%2C972%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -14,9 +14,9 @@ Daily-updated dataset of available and resale .domains one-word domains from Uni
 > **Note:** this repository currently mirrors the full live catalog for this exact search.
 > Unique Domains counts can still change as the search refreshes.
 
-**Public extract:** 8,973 rows · **Live catalog:** 8,973 domains
+**Public extract:** 8,973 rows · **Live catalog:** 8,972 domains
 
-**Last updated:** 2026-04-11  
+**Last updated:** 2026-04-12  
 **Canonical page:** `https://unique.domains/domains/tld/domains`  
 **Best for:** founders, investors, studios
 
@@ -64,24 +64,24 @@ print(df.head())
 
 | domain           | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                  |
 | ---------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | -------------------------- |
-| wizard.domains   | available | $19.99    | $56.99        | 118            | 46     | 6      | name.com                   |
+| wizard.domains   | available | $19.99    | $56.99        | 118            | 43     | 6      | name.com                   |
 | contact.domains  | resell    | $500      | —             | 84             | 43     | 7      | GoDaddy.com, LLC           |
 | one.domains      | premium   | $250      | $250          | 132            | 50     | 3      | name.com                   |
 | water.domains    | available | $53.98    | —             | 108            | 42     | 5      | namecheap                  |
 | absolute.domains | resell    | $19.99    | $52.99        | 80             | 32     | 8      | Dynadot Inc                |
 | design.domains   | premium   | $250      | $250          | 108            | 50     | 6      | name.com                   |
-| agile.domains    | available | $19.99    | $56.99        | 92             | 42     | 5      | name.com                   |
+| agile.domains    | available | $19.99    | $56.99        | 92             | 41     | 5      | name.com                   |
 | woo.domains      | resell    | —         | —             | 67             | 82     | 3      | NameCheap, Inc.            |
 | security.domains | premium   | $85.80    | $85.80        | 70             | 49     | 8      | namecheap                  |
-| unity.domains    | available | $19.99    | $56.99        | 70             | 41     | 5      | name.com                   |
+| skill.domains    | available | $53.98    | —             | 120            | 40     | 5      | namecheap                  |
 | get.domains      | resell    | —         | —             | 88             | 69     | 3      | Porkbun LLC                |
 | video.domains    | premium   | $82.50    | —             | 88             | 47     | 5      | name.com                   |
-| skill.domains    | available | $53.98    | —             | 120            | 40     | 5      | namecheap                  |
-| open.domains     | resell    | —         | —             | 106            | 61     | 4      | Spaceship, Inc.            |
+| unity.domains    | available | $19.99    | $56.99        | 70             | 40     | 5      | name.com                   |
+| tesla.domains    | resell    | —         | —             | 86             | 61     | 5      | Squarespace Domains II LLC |
 | car.domains      | premium   | $520      | $520          | 94             | 46     | 3      | namecheap                  |
 | gather.domains   | available | $19.99    | $56.99        | 96             | 38     | 6      | name.com                   |
-| tesla.domains    | resell    | —         | —             | 86             | 61     | 5      | Squarespace Domains II LLC |
-| hotel.domains    | premium   | $260      | $260          | 70             | 46     | 5      | namecheap                  |
+| open.domains     | resell    | —         | —             | 106            | 60     | 4      | Spaceship, Inc.            |
+| hotel.domains    | premium   | $260      | $260          | 70             | 45     | 5      | namecheap                  |
 | risk.domains     | available | $53.98    | —             | 62             | 38     | 4      | namecheap                  |
 | context.domains  | resell    | —         | —             | 108            | 59     | 7      | Sav.com, LLC               |
 
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 8,973-row public sample | 8,973 live domains                               |
+| 8,973-row public sample | 8,972 live domains                               |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .DOMAINS One-Word Domains*. Version 2026-04-11. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .DOMAINS One-Word Domains*. Version 2026-04-12. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
