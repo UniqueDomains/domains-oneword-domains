@@ -69,7 +69,7 @@ print(df.head())
 | one.domains      | premium   | $250      | $250          | 132            | 50     | 3      | name.com                   |
 | water.domains    | available | $53.98    | —             | 108            | 42     | 5      | namecheap                  |
 | absolute.domains | resell    | $19.99    | $52.99        | 80             | 32     | 8      | Dynadot Inc                |
-| design.domains   | premium   | $250      | $250          | 108            | 50     | 6      | name.com                   |
+| design.domains   | premium   | $250      | $250          | 108            | 49     | 6      | name.com                   |
 | agile.domains    | available | $19.99    | $56.99        | 92             | 41     | 5      | name.com                   |
 | woo.domains      | resell    | —         | —             | 67             | 82     | 3      | NameCheap, Inc.            |
 | security.domains | premium   | $85.80    | $85.80        | 70             | 49     | 8      | namecheap                  |
@@ -79,7 +79,7 @@ print(df.head())
 | unity.domains    | available | $19.99    | $56.99        | 70             | 40     | 5      | name.com                   |
 | tesla.domains    | resell    | —         | —             | 86             | 61     | 5      | Squarespace Domains II LLC |
 | car.domains      | premium   | $520      | $520          | 94             | 46     | 3      | namecheap                  |
-| gather.domains   | available | $19.99    | $56.99        | 96             | 38     | 6      | name.com                   |
+| gather.domains   | available | $19.99    | $56.99        | 96             | 39     | 6      | name.com                   |
 | open.domains     | resell    | —         | —             | 106            | 60     | 4      | Spaceship, Inc.            |
 | hotel.domains    | premium   | $260      | $260          | 70             | 45     | 5      | namecheap                  |
 | risk.domains     | available | $53.98    | —             | 62             | 38     | 4      | namecheap                  |
