@@ -1,22 +1,22 @@
-# Available .DOMAINS One-Word Domains (8,974)
+# Available .DOMAINS One-Word Domains (11,312)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
-  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-8%2C974%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-8%2C974%20domains-6f42c1">
+  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-11%2C312%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
 
-Daily-updated dataset of available and resale .domains one-word domains from Unique Domains.
+Daily-updated public extract of available and resale .domains one-word domains from Unique Domains.
 
-> **Note:** this repository currently mirrors the full live catalog for this exact search.
-> Unique Domains counts can still change as the search refreshes.
+> **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
+> The full live catalog for this exact search currently contains **11,312 domains** on the canonical page below.
 
-**Public extract:** 8,974 rows · **Live catalog:** 8,974 domains
+**Public extract:** 1,000 rows · **Live catalog:** 11,312 domains
 
-**Last updated:** 2026-04-14  
+**Last updated:** 2026-04-26  
 **Canonical page:** `https://unique.domains/domains/tld/domains`  
 **Best for:** founders, investors, studios
 
@@ -43,8 +43,8 @@ This repository is the public extract for Unique Domains' .DOMAINS one-word doma
 
 ### Files
 
-- `domains.csv` — public CSV extract (8,974 rows)
-- `domains.json` — public JSON extract (8,974 rows)
+- `domains.csv` — public CSV extract (1,000 rows)
+- `domains.json` — public JSON extract (1,000 rows)
 - `DATA_DICTIONARY.md` — field definitions for the exported files
 - `METHODOLOGY.md` — scope, refresh policy, and caveats
 - `CHANGELOG.md` — latest snapshot metadata
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain           | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                  |
-| ---------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | -------------------------- |
-| wizard.domains   | available | $19.99    | $56.99        | 118            | 43     | 6      | name.com                   |
-| contact.domains  | resell    | $500      | —             | 84             | 43     | 7      | GoDaddy.com, LLC           |
-| one.domains      | premium   | $250      | $250          | 132            | 50     | 3      | name.com                   |
-| water.domains    | available | $53.98    | —             | 108            | 42     | 5      | namecheap                  |
-| absolute.domains | resell    | $19.99    | $52.99        | 80             | 32     | 8      | Dynadot Inc                |
-| design.domains   | premium   | $250      | $250          | 108            | 49     | 6      | name.com                   |
-| agile.domains    | available | $19.99    | $56.99        | 92             | 41     | 5      | name.com                   |
-| woo.domains      | resell    | —         | —             | 67             | 82     | 3      | NameCheap, Inc.            |
-| security.domains | premium   | $85.80    | $85.80        | 70             | 49     | 8      | namecheap                  |
-| skill.domains    | available | $53.98    | —             | 120            | 40     | 5      | namecheap                  |
-| get.domains      | resell    | —         | —             | 88             | 69     | 3      | Porkbun LLC                |
-| video.domains    | premium   | $82.50    | —             | 88             | 47     | 5      | name.com                   |
-| unity.domains    | available | $19.99    | $56.99        | 70             | 40     | 5      | name.com                   |
-| tesla.domains    | resell    | —         | —             | 86             | 61     | 5      | Squarespace Domains II LLC |
-| car.domains      | premium   | $520      | $520          | 94             | 46     | 3      | namecheap                  |
-| gather.domains   | available | $19.99    | $56.99        | 96             | 39     | 6      | name.com                   |
-| open.domains     | resell    | —         | —             | 106            | 60     | 4      | Spaceship, Inc.            |
-| hotel.domains    | premium   | $260      | $260          | 70             | 45     | 5      | namecheap                  |
-| risk.domains     | available | $53.98    | —             | 62             | 38     | 4      | namecheap                  |
-| context.domains  | resell    | —         | —             | 108            | 59     | 7      | Sav.com, LLC               |
+| domain               | status    | ask_price | renewal_price | attractiveness | demand | length | registrar         |
+| -------------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------------- |
+| Keys.domains         | available | $53.98    | —             | 66             | 46     | 4      | namecheap         |
+| stock.domains        | resell    | —         | —             | 68             | 40     | 5      | Sav.com, LLC - 12 |
+| events.domains       | premium   | $250      | —             | 68             | 37     | 6      | name.com          |
+| shortcuts.domains    | available | $19.99    | —             | 48             | 41     | 10     | name.com          |
+| content.domains      | resell    | —         | —             | 86             | 39     | 7      | GoDaddy.com, LLC  |
+| partners.domains     | premium   | $250      | —             | 61             | 32     | 8      | name.com          |
+| trends.domains       | available | $19.99    | —             | 60             | 32     | 6      | name.com          |
+| brilliant.domains    | resell    | —         | —             | 86             | 34     | 9      | Sav.com, LLC      |
+| photos.domains       | premium   | $250      | —             | 54             | 28     | 6      | name.com          |
+| maps.domains         | available | $19.99    | —             | 56             | 31     | 4      | name.com          |
+| discount.domains     | resell    | —         | —             | 74             | 28     | 8      | GoDaddy.com, LLC  |
+| systems.domains      | premium   | $82.50    | —             | 46             | 27     | 7      | name.com          |
+| videos.domains       | available | $19.99    | —             | 52             | 30     | 6      | name.com          |
+| mostwanted.domains   | resell    | —         | —             | 54             | 10     | 11     | 1API GmbH         |
+| boats.domains        | premium   | $250      | —             | 52             | 24     | 5      | name.com          |
+| popup.domains        | available | $19.99    | —             | 84             | 29     | 6      | name.com          |
+| closeout.domains     | resell    | —         | —             | 76             | 6      | 9      | Porkbun LLC       |
+| flights.domains      | premium   | $242      | $242          | 61             | 22     | 7      | namesilo          |
+| commonground.domains | available | $19.99    | —             | 74             | 28     | 13     | name.com          |
+| holdings.domains     | premium   | $82.50    | —             | 52             | 14     | 8      | name.com          |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 8,974-row public sample | 8,974 live domains                               |
+| 1,000-row public sample | 11,312 live domains                              |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .DOMAINS One-Word Domains*. Version 2026-04-14. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .DOMAINS One-Word Domains*. Version 2026-04-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
