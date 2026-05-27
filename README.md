@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .domains one-word domains f
 
 **Public extract:** 1,000 rows · **Live catalog:** 11,910 domains · **Median ask:** $29.35 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-17  
+**Last updated:** 2026-05-27  
 **Canonical page:** `https://unique.domains/domains/tld/domains`  
 **Best for:** founders, investors, studios
 
@@ -77,7 +77,7 @@ print(df.head())
 | events.domains     | premium   | $250      | —             | 68             | 37     | 6      | name.com          |
 | shortcuts.domains  | available | $19.99    | —             | 48             | 41     | 10     | name.com          |
 | content.domains    | resell    | —         | —             | 86             | 38     | 7      | GoDaddy.com, LLC  |
-| partners.domains   | premium   | $250      | —             | 61             | 32     | 8      | name.com          |
+| partners.domains   | premium   | $250      | —             | 61             | 31     | 8      | name.com          |
 | maps.domains       | available | $19.99    | —             | 56             | 31     | 4      | name.com          |
 | brilliant.domains  | resell    | —         | —             | 86             | 32     | 9      | Sav.com, LLC      |
 | photos.domains     | premium   | $250      | —             | 54             | 28     | 6      | name.com          |
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .DOMAINS One-Word Domains*. Version 2026-05-17. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .DOMAINS One-Word Domains*. Version 2026-05-27. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
