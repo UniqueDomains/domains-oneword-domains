@@ -14,10 +14,10 @@ Daily-updated public extract of available and resale .domains one-word domains f
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
 > The full live catalog for this exact search currently contains **11,910 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 11,910 domains · **Median ask:** $29.35 · **High-demand under $2,500:** 0
+**Public extract:** 1,000 rows · **Live catalog:** 11,910 domains · **Median ask:** $29.48 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-27  
-**Canonical page:** `https://unique.domains/domains/tld/domains`  
+**Last updated:** 2026-07-07
+**Canonical page:** `https://unique.domains/domains/tld/domains`
 **Best for:** founders, investors, studios
 
 ---
@@ -43,13 +43,13 @@ This repository is the public extract for Unique Domains' .DOMAINS one-word doma
 
 ### Files
 
-- `domains.csv` — public CSV extract (1,000 rows)
-- `domains.json` — public JSON extract (1,000 rows)
-- `DATA_DICTIONARY.md` — field definitions for the exported files
-- `METHODOLOGY.md` — scope, refresh policy, and caveats
-- `CHANGELOG.md` — latest snapshot metadata
-- `CITATION.cff` — machine-readable dataset citation metadata
-- `LICENSE` — terms for the public extract
+- `domains.csv`, public CSV extract (1,000 rows)
+- `domains.json`, public JSON extract (1,000 rows)
+- `DATA_DICTIONARY.md`, field definitions for the exported files
+- `METHODOLOGY.md`, scope, refresh policy, and caveats
+- `CHANGELOG.md`, latest snapshot metadata
+- `CITATION.cff`, machine-readable dataset citation metadata
+- `LICENSE`, terms for the public extract
 
 ## 🧭 Quick start
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain             | status    | ask_price | renewal_price | attractiveness | demand | length | registrar         |
-| ------------------ | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------------- |
-| girls.domains      | available | $19.99    | —             | 83             | 23     | 5      | name.com          |
-| finals.domains     | available | $19.99    | —             | 80             | 7      | 6      | name.com          |
-| ladies.domains     | available | $19.99    | —             | 80             | 17     | 6      | name.com          |
-| barup.domains      | available | $19.99    | —             | 82             | 2      | 6      | name.com          |
-| popup.domains      | available | $19.99    | —             | 84             | 28     | 6      | name.com          |
-| useit.domains      | available | $19.99    | —             | 94             | 7      | 6      | name.com          |
-| dogsit.domains     | available | $19.99    | —             | 96             | 2      | 6      | name.com          |
-| QandA.domains      | available | $53.98    | —             | 80             | 10     | 7      | namecheap         |
-| Keys.domains       | available | $53.98    | —             | 66             | 46     | 4      | namecheap         |
-| stock.domains      | resell    | —         | —             | 68             | 40     | 5      | Sav.com, LLC - 12 |
-| events.domains     | premium   | $250      | —             | 68             | 37     | 6      | name.com          |
-| shortcuts.domains  | available | $19.99    | —             | 48             | 41     | 10     | name.com          |
-| content.domains    | resell    | —         | —             | 86             | 38     | 7      | GoDaddy.com, LLC  |
-| partners.domains   | premium   | $250      | —             | 61             | 31     | 8      | name.com          |
-| maps.domains       | available | $19.99    | —             | 56             | 31     | 4      | name.com          |
-| brilliant.domains  | resell    | —         | —             | 86             | 32     | 9      | Sav.com, LLC      |
-| photos.domains     | premium   | $250      | —             | 54             | 28     | 6      | name.com          |
-| videos.domains     | available | $19.99    | —             | 52             | 30     | 6      | name.com          |
-| mostwanted.domains | resell    | —         | —             | 54             | 10     | 11     | 1API GmbH         |
-| boats.domains      | premium   | $250      | —             | 52             | 24     | 5      | name.com          |
+| domain        | status    | ask_price | renewal_price | attractiveness | demand | length | registrar        |
+| ------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------- |
+| atp.domains   | available | $19.99    | —             | medium         | low    | 3      | name.com         |
+| hey.domains   | resell    | —         | —             | medium         | medium | 3      | Dynadot Inc      |
+| pub.domains   | premium   | $1,000    | —             | high           | low    | 3      | name.com         |
+| awe.domains   | available | $19.99    | —             | high           | low    | 3      | name.com         |
+| sup.domains   | resell    | —         | —             | high           | low    | 3      | GoDaddy.com, LLC |
+| bell.domains  | premium   | $78.54    | $78.54        | high           | low    | 4      | namesilo         |
+| DJI.domains   | available | $19.99    | —             | high           | low    | 3      | name.com         |
+| avid.domains  | resell    | —         | —             | medium         | low    | 4      | Dynadot Inc      |
+| film.domains  | premium   | $242      | $242          | high           | low    | 4      | namesilo         |
+| fee.domains   | available | $19.99    | —             | high           | low    | 3      | name.com         |
+| huge.domains  | resell    | —         | —             | high           | low    | 4      | Spaceship, Inc.  |
+| fund.domains  | premium   | $242      | $242          | high           | low    | 4      | namesilo         |
+| gas.domains   | available | $19.99    | —             | high           | low    | 3      | name.com         |
+| tiny.domains  | resell    | —         | —             | medium         | medium | 4      | Dynadot Inc      |
+| loft.domains  | premium   | $500      | —             | medium         | low    | 4      | name.com         |
+| ivy.domains   | available | $19.99    | —             | high           | low    | 3      | name.com         |
+| basic.domains | resell    | —         | —             | medium         | low    | 5      | 1API GmbH        |
+| page.domains  | premium   | $500      | —             | medium         | low    | 4      | name.com         |
+| lap.domains   | available | $19.99    | —             | high           | low    | 3      | name.com         |
+| grand.domains | resell    | —         | —             | high           | low    | 5      | GoDaddy.com, LLC |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -105,27 +105,27 @@ If this sample already feels useful, Unique Domains is where the exact search be
 
 ## 🧱 Field summary
 
-- `domain` — Fully qualified domain name.
-- `status` — Current acquisition state for the domain in the public extract.
-- `purchase_price` — Visible purchase price when available.
-- `renewal_price` — Visible renewal price when available.
-- `attractiveness` — Composite naming score used as a decision-support signal.
-- `demand` — Relative buyer-pressure score when available.
-- `length` — Character count without the TLD.
-- `registrar` — Registrar name when known.
-- `created_at` — Creation timestamp when known.
-- `expires_at` — Expiry timestamp when known.
+- `domain`, Fully qualified domain name.
+- `status`, Current acquisition state for the domain in the public extract.
+- `purchase_price`, Visible purchase price when available.
+- `renewal_price`, Visible renewal price when available.
+- `attractiveness`, Public composite naming band used as a decision-support signal.
+- `demand`, Public buyer-pressure band when available.
+- `length`, Character count without the TLD.
+- `registrar`, Registrar name when known.
+- `created_at`, Creation timestamp when known.
+- `expires_at`, Expiry timestamp when known.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-This selection is entirely made up of one-word names on the .domains extension. The set is broad, with 11,908 domains, and the sample shows a mix of dictionary words, short invented terms, and plural keywords such as girls.domains, finals.domains, and forces.domains. The median ask is 29.35, which signals low upfront pricing, but buyers should still compare each name on clarity, memorability, and fit with the .domains ending. For founders, the main question is whether the word stays credible and easy to explain with this extension. For investors, the key check is whether the low entry cost is matched by realistic resale interest and manageable renewal economics.
+This selection includes 11,910 one-word .domains domain names, each pairing a single word or brand-style term with the .domains extension. The median ask sits near $29, making most names in this set easy to compare at a glance. The list spans everyday nouns, catchy brand terms, and niche one-word names — useful for founders seeking a brandable, ownable name and investors scanning for undervalued one-word terms across a single, consistent TLD.
 
-- All names in this selection use the .domains extension
-- Median ask is 29.35 across 11,908 listed domains
-- Favor words that read cleanly with .domains
-- Check renewal cost before treating low ask as a deal
+- 11,910 one-word .domains names in this selection
+- Median ask near $29 across the set
+- Everyday words, brand terms, and niche picks
+- Updated daily to reflect current listings
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .DOMAINS One-Word Domains*. Version 2026-05-27. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .DOMAINS One-Word Domains*. Version 2026-07-07. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
