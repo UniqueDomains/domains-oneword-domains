@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .domains one-word domains f
 
 **Public extract:** 1,000 rows · **Live catalog:** 23,860 domains · **Median ask:** $29.03 · **High-demand under $2,500:** 1
 
-**Last updated:** 2026-09-15
+**Last updated:** 2026-09-16
 **Canonical page:** `https://unique.domains/domains/tld/domains`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain        | status    | ask_price | renewal_price | attractiveness | demand | length | registrar        |
-| ------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------- |
-| atp.domains   | available | $19.99    | —             | medium         | low    | 3      | name.com         |
-| hey.domains   | resell    | —         | —             | medium         | medium | 3      | Dynadot Inc      |
-| pub.domains   | premium   | $1,000    | —             | high           | low    | 3      | name.com         |
-| awe.domains   | available | $19.99    | —             | high           | low    | 3      | name.com         |
-| sup.domains   | resell    | —         | —             | high           | low    | 3      | GoDaddy.com, LLC |
-| bell.domains  | premium   | $78.54    | $78.54        | high           | low    | 4      | namesilo         |
-| clv.domains   | available | $19.99    | $56.99        | low            | low    | 3      | name.com         |
-| avid.domains  | resell    | —         | —             | medium         | low    | 4      | Dynadot Inc      |
-| deal.domains  | premium   | $242      | $242          | medium         | low    | 4      | namesilo         |
-| cxl.domains   | available | $19.99    | $56.99        | low            | low    | 3      | name.com         |
-| huge.domains  | resell    | —         | —             | high           | low    | 4      | Spaceship, Inc.  |
-| film.domains  | premium   | $242      | $242          | high           | low    | 4      | namesilo         |
-| DJI.domains   | available | $19.99    | —             | high           | low    | 3      | name.com         |
-| tiny.domains  | resell    | —         | —             | medium         | medium | 4      | Dynadot Inc      |
-| fund.domains  | premium   | $242      | $242          | high           | low    | 4      | namesilo         |
-| fee.domains   | available | $19.99    | —             | high           | low    | 3      | name.com         |
-| basic.domains | resell    | —         | —             | medium         | low    | 5      | 1API GmbH        |
-| loft.domains  | premium   | $500      | —             | medium         | low    | 4      | name.com         |
-| gas.domains   | available | $19.99    | —             | high           | low    | 3      | name.com         |
-| grand.domains | resell    | —         | —             | high           | low    | 5      | GoDaddy.com, LLC |
+| domain          | status    | ask_price | renewal_price | attractiveness | demand | length | registrar        |
+| --------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------- |
+| correct.domains | available | $19.99    | $56.99        | high           | low    | 7      | name.com         |
+| period.domains  | available | $19.99    | —             | high           | low    | 6      | name.com         |
+| atp.domains     | available | $19.99    | —             | medium         | low    | 3      | name.com         |
+| hey.domains     | resell    | —         | —             | medium         | medium | 3      | Dynadot Inc      |
+| pub.domains     | premium   | $1,000    | —             | high           | low    | 3      | name.com         |
+| awe.domains     | available | $19.99    | —             | high           | low    | 3      | name.com         |
+| sup.domains     | resell    | —         | —             | high           | low    | 3      | GoDaddy.com, LLC |
+| bell.domains    | premium   | $78.54    | $78.54        | high           | low    | 4      | namesilo         |
+| clv.domains     | available | $19.99    | $56.99        | low            | low    | 3      | name.com         |
+| avid.domains    | resell    | —         | —             | medium         | low    | 4      | Dynadot Inc      |
+| deal.domains    | premium   | $242      | $242          | medium         | low    | 4      | namesilo         |
+| cxl.domains     | available | $19.99    | $56.99        | low            | low    | 3      | name.com         |
+| huge.domains    | resell    | —         | —             | high           | low    | 4      | Spaceship, Inc.  |
+| film.domains    | premium   | $242      | $242          | high           | low    | 4      | namesilo         |
+| DJI.domains     | available | $19.99    | —             | high           | low    | 3      | name.com         |
+| tiny.domains    | resell    | —         | —             | medium         | medium | 4      | Dynadot Inc      |
+| fund.domains    | premium   | $242      | $242          | high           | low    | 4      | namesilo         |
+| fee.domains     | available | $19.99    | —             | high           | low    | 3      | name.com         |
+| basic.domains   | resell    | —         | —             | medium         | low    | 5      | 1API GmbH        |
+| loft.domains    | premium   | $500      | —             | medium         | low    | 4      | name.com         |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -115,6 +115,7 @@ If this sample already feels useful, Unique Domains is where the exact search be
 - `registrar`, Registrar name when known.
 - `created_at`, Creation timestamp when known.
 - `expires_at`, Expiry timestamp when known.
+- `status_verified_at`, When status was last established against the registry. Null means never checked.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
@@ -132,6 +133,7 @@ See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 ## 🔄 Update policy
 
 - This repository is refreshed regularly from the same export pipeline used for public dataset repos.
+- The snapshot date above is when this file was written, not when each row was checked. Read `status_verified_at` for that: a name whose status was last established months ago is exported with its real date rather than the snapshot's.
 - The README count targets the live catalog count from the public landing response when available.
 - The CSV and JSON files contain the public extract only and may not match the full live catalog size.
 - Stable historical references should be published via GitHub Releases outside this repository snapshot.
@@ -142,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .DOMAINS One-Word Domains*. Version 2026-09-15. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .DOMAINS One-Word Domains*. Version 2026-09-16. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
