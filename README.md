@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .domains one-word domains f
 
 **Public extract:** 1,000 rows · **Live catalog:** 30,790 domains · **Median ask:** $34.17 · **High-demand under $2,500:** 1
 
-**Last updated:** 2026-09-23
+**Last updated:** 2026-09-24
 **Canonical page:** `https://unique.domains/domains/tld/domains`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain        | status    | ask_price | renewal_price | attractiveness | demand | length | registrar        |
-| ------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------- |
-| atp.domains   | available | $19.99    | —             | medium         | low    | 3      | name.com         |
-| wiz.domains   | resell    | $19.99    | $56.99        | medium         | low    | 3      | name.com         |
-| pub.domains   | premium   | $1,000    | —             | high           | low    | 3      | name.com         |
-| awe.domains   | available | $19.99    | —             | high           | low    | 3      | name.com         |
-| unity.domains | resell    | $19.99    | $56.99        | low            | low    | 5      | name.com         |
-| bell.domains  | premium   | $78.54    | $78.54        | high           | low    | 4      | namesilo         |
-| clv.domains   | available | $19.99    | $56.99        | low            | low    | 3      | name.com         |
-| hey.domains   | resell    | —         | —             | medium         | medium | 3      | Dynadot Inc      |
-| deal.domains  | premium   | $242      | $242          | low            | low    | 4      | namesilo         |
-| cxl.domains   | available | $19.99    | $56.99        | low            | low    | 3      | name.com         |
-| sup.domains   | resell    | —         | —             | high           | low    | 3      | GoDaddy.com, LLC |
-| film.domains  | premium   | $242      | $242          | medium         | low    | 4      | namesilo         |
-| dji.domains   | available | $19.99    | —             | high           | low    | 3      | name.com         |
-| avid.domains  | resell    | —         | —             | medium         | low    | 4      | Dynadot Inc      |
-| fund.domains  | premium   | $242      | $242          | medium         | low    | 4      | namesilo         |
-| fee.domains   | available | $19.99    | —             | high           | low    | 3      | name.com         |
-| huge.domains  | resell    | —         | —             | high           | low    | 4      | Spaceship, Inc.  |
-| loft.domains  | premium   | $512      | $512          | low            | low    | 4      | namesilo         |
-| gas.domains   | available | $42.99    | $42.99        | low            | low    | 3      | namesilo         |
-| basic.domains | resell    | —         | —             | low            | low    | 5      | 1API GmbH        |
+| domain         | status    | ask_price | renewal_price | attractiveness | demand | length | registrar        |
+| -------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------- |
+| period.domains | available | $19.99    | —             | high           | low    | 6      | name.com         |
+| atp.domains    | available | $19.99    | —             | medium         | low    | 3      | name.com         |
+| wiz.domains    | resell    | $19.99    | $56.99        | medium         | low    | 3      | name.com         |
+| pub.domains    | premium   | $1,000    | —             | high           | low    | 3      | name.com         |
+| awe.domains    | available | $19.99    | —             | high           | low    | 3      | name.com         |
+| unity.domains  | resell    | $19.99    | $56.99        | low            | low    | 5      | name.com         |
+| bell.domains   | premium   | $78.54    | $78.54        | high           | low    | 4      | namesilo         |
+| clv.domains    | available | $19.99    | $56.99        | low            | low    | 3      | name.com         |
+| hey.domains    | resell    | —         | —             | medium         | medium | 3      | Dynadot Inc      |
+| deal.domains   | premium   | $242      | $242          | low            | low    | 4      | namesilo         |
+| cxl.domains    | available | $19.99    | $56.99        | low            | low    | 3      | name.com         |
+| sup.domains    | resell    | —         | —             | high           | low    | 3      | GoDaddy.com, LLC |
+| film.domains   | premium   | $242      | $242          | medium         | low    | 4      | namesilo         |
+| dji.domains    | available | $19.99    | —             | high           | low    | 3      | name.com         |
+| avid.domains   | resell    | —         | —             | medium         | low    | 4      | Dynadot Inc      |
+| fund.domains   | premium   | $242      | $242          | medium         | low    | 4      | namesilo         |
+| fee.domains    | available | $19.99    | —             | high           | low    | 3      | name.com         |
+| huge.domains   | resell    | —         | —             | high           | low    | 4      | Spaceship, Inc.  |
+| loft.domains   | premium   | $512      | $512          | low            | low    | 4      | namesilo         |
+| gas.domains    | available | $42.99    | $42.99        | low            | low    | 3      | namesilo         |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -144,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .DOMAINS One-Word Domains*. Version 2026-09-23. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .DOMAINS One-Word Domains*. Version 2026-09-24. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
