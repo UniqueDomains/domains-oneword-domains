@@ -1,10 +1,10 @@
-# Available .DOMAINS One-Word Domains (31,724)
+# Available .DOMAINS One-Word Domains (33,982)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-31%2C724%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-33%2C982%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,11 +12,11 @@
 Daily-updated public extract of available and resale .domains one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **31,724 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **33,982 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 31,724 domains · **Median ask:** $39.25 · **High-demand under $2,500:** 2
+**Public extract:** 1,000 rows · **Live catalog:** 33,982 domains · **Median ask:** $39.13 · **High-demand under $2,500:** 2
 
-**Last updated:** 2026-10-02
+**Last updated:** 2026-10-03
 **Canonical page:** `https://unique.domains/domains/tld/domains`
 **Best for:** founders, investors, studios
 
@@ -67,22 +67,22 @@ print(df.head())
 | acf.domains       | available | $33.20    | $33.20        | high           | low    | 3      | cloudflare                 |
 | spanish.domains   | resell    | $19.99    | —             | high           | low    | 7      | name.com                   |
 | dba.domains       | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                   |
-| ado.domains       | available | $42.99    | $42.99        | high           | low    | 3      | namesilo                   |
+| adl.domains       | available | $34.36    | $34.36        | high           | low    | 3      | spaceship                  |
 | norwegian.domains | resell    | $19.99    | —             | high           | low    | 9      | GoDaddy.com, LLC           |
 | isp.domains       | premium   | $68.51    | $68.51        | high           | low    | 3      | spaceship                  |
-| ash.domains       | available | $42.99    | $42.99        | high           | medium | 3      | namesilo                   |
+| ado.domains       | available | $42.99    | $42.99        | high           | low    | 3      | namesilo                   |
 | mask.domains      | resell    | —         | —             | high           | low    | 4      | GoDaddy.com, LLC           |
 | lgbt.domains      | premium   | $512      | $512          | high           | low    | 4      | namesilo                   |
-| bjp.domains       | available | $19.99    | —             | high           | low    | 3      | name.com                   |
+| ash.domains       | available | $42.99    | $42.99        | high           | medium | 3      | namesilo                   |
 | rugby.domains     | resell    | —         | —             | high           | high   | 5      | —                          |
 | pink.domains      | premium   | $512      | $512          | high           | low    | 4      | namesilo                   |
-| cca.domains       | available | $42.99    | $42.99        | high           | low    | 3      | namesilo                   |
+| bjp.domains       | available | $42.99    | $42.99        | high           | low    | 3      | namesilo                   |
 | tesla.domains     | resell    | —         | —             | high           | medium | 5      | Squarespace Domains II LLC |
 | reed.domains      | premium   | $78.54    | $78.54        | high           | low    | 4      | namesilo                   |
-| ccp.domains       | available | $42.99    | $42.99        | medium         | low    | 3      | namesilo                   |
+| bsp.domains       | available | $34.36    | $34.36        | high           | low    | 3      | spaceship                  |
 | world.domains     | resell    | —         | —             | high           | medium | 5      | —                          |
-| skin.domains      | premium   | $440      | $440          | high           | low    | 4      | dynadot                    |
-| chr.domains       | available | $34.36    | $34.36        | medium         | low    | 3      | spaceship                  |
+| cards.domains     | premium   | $242      | $242          | high           | low    | 5      | namesilo                   |
+| cca.domains       | available | $42.99    | $42.99        | high           | low    | 3      | namesilo                   |
 | kazakh.domains    | resell    | —         | —             | medium         | low    | 6      | —                          |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                             |
 | ----------------------- | ------------------------------------------ |
-| 1,000-row public sample | 31,724 live domains                        |
+| 1,000-row public sample | 33,982 live domains                        |
 | Static CSV / JSON       | live search and daily refresh              |
 | Basic exported fields   | 2 high-demand names under $2,500           |
 | No persistence          | Radar, saved search, and alerts            |
@@ -144,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .DOMAINS One-Word Domains*. Version 2026-10-02. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .DOMAINS One-Word Domains*. Version 2026-10-03. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
